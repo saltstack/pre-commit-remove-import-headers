@@ -1,0 +1,12 @@
+---
+-   id: remove-import-headers
+    name: Remove Python Import Header Comments
+    entry: remove-import-headers
+    language: python
+    language_version: python3
+    args: []
+    files: '^.*\.py$'
+    require_serial: false
+    pass_filenames: true
+    additional_dependencies: []
+    minimum_pre_commit_version: 0.14.0
