@@ -24,7 +24,7 @@ def remove_comments(files):
     ]
 
     comments_regex = re.compile(
-        r"^# ([I|i])mports? .*(([L|l])ibs)\n",
+        r"^# ([I|i])mports? .*(([L|l])ibs?)\n",
         re.MULTILINE
     )
 
